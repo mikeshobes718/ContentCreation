@@ -443,7 +443,7 @@ class PlateReader:
             self.seconds = int(n) / FPS
             self.proc = subprocess.Popen(
                 ["ffmpeg", "-loglevel", "error", "-i", path, "-vf", f"scale={W}:{H}:flags=lanczos",
-                 "-f", "rawvideo", "-pix_fmt", "rgba", "-"], stdout=subprocess.PIPE)
+                 "-f", "rawvideo", "-pix_fmt", "rgba", "-"], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
 
     def frame(self, i):
         if not self.ok:
@@ -464,6 +464,9 @@ _READERS = {}
 def plate_image(name, S, t):
     key = (name, S["start"])
     if key not in _READERS:
+        for r in _READERS.values():
+            if r.ok:
+                r.proc.kill()
         _READERS.clear()
         _READERS[key] = PlateReader(name)
     r = _READERS[key]
@@ -481,6 +484,9 @@ def v_plate(c, t, S, p):
     g = skia.Paint(AntiAlias=True)
     g.setShader(skia.GradientShader.MakeLinear([(0, H - 380), (0, H)], [col(BG, 0), col(BG, 0.85)]))
     c.drawRect(skia.Rect.MakeXYWH(0, H - 380, W, 380), g)
+    g2 = skia.Paint(AntiAlias=True)
+    g2.setShader(skia.GradientShader.MakeLinear([(0, 0), (0, 220)], [col(BG, 0.75), col(BG, 0)]))
+    c.drawRect(skia.Rect.MakeXYWH(0, 0, W, 220), g2)
     label(c, p.get("label", ""), 96, 120, ap(t, 0.3))
     caps = p.get("caption", [])
     for k, (ci, text) in enumerate(caps):
