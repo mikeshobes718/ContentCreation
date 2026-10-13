@@ -1,0 +1,236 @@
+1
+00:00:00,500 --> 00:00:05,984
+On the 30th of September, Google announced the most powerful AI model it had ever built.
+
+2
+00:00:06,364 --> 00:00:11,090
+It was called Gemini 4 Argon. And almost nobody was allowed to use it.
+
+3
+00:00:11,470 --> 00:00:18,286
+Google said Argon could hunt through software on its own, find security holes, prove they were real, and patch them.
+
+4
+00:00:18,666 --> 00:00:24,257
+Which is exactly what you'd want from a defender. And exactly what you'd fear from an attacker.
+
+5
+00:00:24,637 --> 00:00:29,732
+So, at first, it went only to a small circle of vetted cybersecurity partners.
+
+6
+00:00:31,032 --> 00:00:34,758
+Thirteen days later, today, Google flipped the switch.
+
+7
+00:00:35,138 --> 00:00:43,541
+Argon is now open to Gemini Pro and Ultra subscribers, and to developers on Google's paid API, at a discounted launch price.
+
+8
+00:00:43,921 --> 00:00:48,471
+It's a strange way to launch a model. Unless you know the last decade at Google.
+
+9
+00:00:48,851 --> 00:00:54,712
+Because this is the company that invented modern AI. And then spent years losing the race it started.
+
+10
+00:01:03,712 --> 00:01:11,983
+In 2017, eight researchers working at Google published a paper with an almost cocky title: “Attention Is All You Need.”
+
+11
+00:01:12,363 --> 00:01:15,804
+It described a new kind of neural network called the Transformer.
+
+12
+00:01:16,184 --> 00:01:24,070
+If that word sounds familiar, it's because it's the T in ChatGPT. Almost every major AI model today is built on it.
+
+13
+00:01:24,450 --> 00:01:29,952
+Google didn't keep it secret. It published it, openly, for anyone to read and build on.
+
+14
+00:01:31,252 --> 00:01:35,367
+And then, one by one, the people who wrote it walked out the door.
+
+15
+00:01:35,747 --> 00:01:42,535
+Within a few years, every one of the eight authors had left Google. To start companies, or to join rivals.
+
+16
+00:01:42,915 --> 00:01:54,607
+One of them, Noam Shazeer, left to co-found Character.AI. In 2024, Google struck a deal reported at around $2.7 billion, largely to bring him back.
+
+17
+00:01:55,907 --> 00:02:02,167
+Google wasn't short of talent. It even had its own chatbot, internally, years before ChatGPT.
+
+18
+00:02:02,547 --> 00:02:08,006
+But a chatbot that simply answers your question has an awkward side effect for a company like Google.
+
+19
+00:02:08,386 --> 00:02:15,962
+You don't click on the ads. And in 2022, those search ads brought in more than $160 billion.
+
+20
+00:02:16,342 --> 00:02:19,885
+So Google was careful. Some would say too careful.
+
+21
+00:02:24,385 --> 00:02:33,311
+On the 30th of November, 2022, a much smaller company called OpenAI released a free research preview: ChatGPT.
+
+22
+00:02:33,691 --> 00:02:41,889
+It reached an estimated hundred million users in about two months. At the time, the fastest-growing consumer app ever recorded.
+
+23
+00:02:42,269 --> 00:02:46,497
+According to The New York Times, Google's management declared a code red.
+
+24
+00:02:47,797 --> 00:02:53,360
+In February 2023, Google rushed out its answer: a chatbot called Bard.
+
+25
+00:02:53,740 --> 00:03:02,200
+In its very first promotional demo, Bard claimed the James Webb Space Telescope took the first ever picture of a planet outside our solar system.
+
+26
+00:03:02,580 --> 00:03:06,847
+It hadn't. That happened in 2004, with a different telescope.
+
+27
+00:03:07,227 --> 00:03:15,157
+Alphabet's stock fell around eight percent. Roughly one hundred billion dollars of value, gone, because of one wrong sentence.
+
+28
+00:03:16,457 --> 00:03:25,985
+A year later, it happened again. Gemini's new image generator produced historically inaccurate pictures of people, and Google had to switch the feature off.
+
+29
+00:03:26,365 --> 00:03:30,564
+Sundar Pichai called some of the responses completely unacceptable.
+
+30
+00:03:30,944 --> 00:03:38,522
+The company that invented the technology now had a reputation for something else entirely. Not being able to ship it.
+
+31
+00:03:43,022 --> 00:03:54,705
+But behind the embarrassments, Google was reorganising. In 2023, it merged its two rival AI labs, Google Brain and DeepMind, into one, under Demis Hassabis.
+
+32
+00:03:55,085 --> 00:04:01,051
+A year later, Hassabis shared a Nobel Prize, for using AI to predict the structure of proteins.
+
+33
+00:04:02,351 --> 00:04:07,213
+And Google had something almost nobody else did. Its own AI chips.
+
+34
+00:04:07,593 --> 00:04:15,112
+While its rivals queued up to buy from Nvidia, Google had spent a decade designing its own, called Tensor Processing Units.
+
+35
+00:04:16,412 --> 00:04:22,020
+In November 2025, Gemini 3 went to the top of the most-watched AI leaderboard.
+
+36
+00:04:22,400 --> 00:04:26,375
+Two months later, Apple announced that Gemini would help power Siri.
+
+37
+00:04:26,755 --> 00:04:32,377
+And Alphabet became only the fourth company in history to be worth four trillion dollars.
+
+38
+00:04:33,677 --> 00:04:39,236
+By the summer of this year, the Gemini app had nine hundred and fifty million monthly users.
+
+39
+00:04:39,616 --> 00:04:48,805
+And Google told investors it would spend somewhere between $195 and $205 billion this year, mostly on AI infrastructure.
+
+40
+00:04:49,185 --> 00:04:53,255
+The company that couldn't ship had become the company nobody could ignore.
+
+41
+00:04:57,755 --> 00:04:58,986
+And then it slipped again.
+
+42
+00:04:59,366 --> 00:05:07,126
+At its developer conference in May, Pichai said the next model, Gemini 3.5 Pro, would arrive in June.
+
+43
+00:05:07,506 --> 00:05:15,735
+June came and went. Bloomberg reported the model was months behind schedule, with problems in one area in particular. Coding.
+
+44
+00:05:16,115 --> 00:05:21,737
+Some of Google's own engineers reportedly worried that OpenAI and Anthropic were pulling ahead.
+
+45
+00:05:22,117 --> 00:05:28,886
+Deadline after deadline passed. Gemini three point five Pro never shipped. Argon replaced it.
+
+46
+00:05:33,386 --> 00:05:35,386
+Which brings us back to today.
+
+47
+00:05:35,766 --> 00:05:48,062
+On Google's own launch charts, Argon wins most of the tests. On one coding benchmark it scores seventy-eight percent, ahead of Anthropic's Claude Opus and OpenAI's GPT-6 Astra.
+
+48
+00:05:49,362 --> 00:05:51,943
+But every lab picks the tests that flatter it.
+
+49
+00:05:52,323 --> 00:05:58,991
+On a widely followed independent index, Argon ties with OpenAI's model, and sits behind Anthropic's.
+
+50
+00:05:59,371 --> 00:06:03,826
+Good. Very good, even. But not the runaway leader Google needed.
+
+51
+00:06:05,126 --> 00:06:08,434
+So Google is competing on something else. Price.
+
+52
+00:06:08,814 --> 00:06:16,938
+For launch, Argon costs two dollars per million tokens going in, and ten coming out. After November, that doubles.
+
+53
+00:06:17,318 --> 00:06:21,746
+Analysts at Jefferies say rivals may be forced to cut their prices in response.
+
+54
+00:06:23,046 --> 00:06:27,716
+And that may be the real story. Google doesn't need the smartest model in the world.
+
+55
+00:06:28,096 --> 00:06:37,776
+It needs a model that's good enough, cheap enough, and already sitting inside the search bar, the phone, the browser, and the inbox of billions of people.
+
+56
+00:06:38,156 --> 00:06:42,025
+Nobody else has that. Not OpenAI. Not Anthropic.
+
+57
+00:06:43,325 --> 00:06:49,405
+In twenty seventeen, Google gave the world the idea that started all of this, for free.
+
+58
+00:06:49,785 --> 00:06:54,356
+Now it's spending around two hundred billion dollars this year trying to win it back.
+
+59
+00:06:54,736 --> 00:06:59,923
+Whether that's a comeback, or just a very expensive catch-up, we're about to find out.
+
