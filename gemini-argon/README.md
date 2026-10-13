@@ -4,7 +4,7 @@ A Fern-style explainer on Gemini 4 Argon (rolled out broadly Oct 13, 2026) and G
 
 ## Finish it with your ElevenLabs voice (new session)
 
-1. Environment settings → Environment variables: `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID`, `ELEVENLABS_MODEL=eleven_v4`.
+1. Environment variables (either naming works): `ElevenLabsAPIKey` + `ElevenLabsMyVoiceID`, or `ELEVENLABS_API_KEY` + `ELEVENLABS_VOICE_ID`. Model defaults to `eleven_v4`.
 2. Network access → Allowed domains: `api.elevenlabs.io`.
 3. In a new session: `cd gemini-argon && VOICE_BACKEND=elevenlabs ./build.sh`
 

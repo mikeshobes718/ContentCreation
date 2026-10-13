@@ -66,7 +66,7 @@ class Kokoro:
 class ElevenLabs:
     def __init__(self):
         # The key is optional: with a network secret, the egress proxy adds xi-api-key itself.
-        self.key = os.environ.get("ELEVENLABS_API_KEY")
+        self.key = os.environ.get("ELEVENLABS_API_KEY") or os.environ.get("ElevenLabsAPIKey")
         self.voice = os.environ.get("ELEVENLABS_VOICE_ID") or os.environ["ElevenLabsMyVoiceID"]
         self.model = os.environ.get("ELEVENLABS_MODEL", "eleven_v4")
         self.settings = dict(stability=float(os.environ.get("EL_STABILITY", "0.45")),
