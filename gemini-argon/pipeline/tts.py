@@ -2,7 +2,8 @@
 
 Voice backends (VOICE_BACKEND):
   kokoro      offline Kokoro (default; needs models/ next to this project)
-  elevenlabs  ElevenLabs API: needs ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID
+  elevenlabs  ElevenLabs API: ELEVENLABS_VOICE_ID (or ElevenLabsMyVoiceID), and the key either
+              as a network secret on api.elevenlabs.io or in ELEVENLABS_API_KEY
   files       use WAVs you made elsewhere (your own recording, Qwen3-TTS on
               your Mac, ...). Put them in build/lines/ named as in
               build/lines_manifest.tsv, which this script always writes.
@@ -64,9 +65,10 @@ class Kokoro:
 
 class ElevenLabs:
     def __init__(self):
-        self.key = os.environ["ELEVENLABS_API_KEY"]
-        self.voice = os.environ["ELEVENLABS_VOICE_ID"]
-        self.model = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
+        # The key is optional: with a network secret, the egress proxy adds xi-api-key itself.
+        self.key = os.environ.get("ELEVENLABS_API_KEY")
+        self.voice = os.environ.get("ELEVENLABS_VOICE_ID") or os.environ["ElevenLabsMyVoiceID"]
+        self.model = os.environ.get("ELEVENLABS_MODEL", "eleven_v4")
         self.settings = dict(stability=float(os.environ.get("EL_STABILITY", "0.45")),
                              similarity_boost=float(os.environ.get("EL_SIMILARITY", "0.85")),
                              style=float(os.environ.get("EL_STYLE", "0.15")),
@@ -83,7 +85,7 @@ class ElevenLabs:
         req = urllib.request.Request(
             f"https://api.elevenlabs.io/v1/text-to-speech/{self.voice}?output_format=mp3_44100_128",
             data=json.dumps(body).encode(), method="POST",
-            headers={"xi-api-key": self.key, "Content-Type": "application/json", "Accept": "audio/mpeg"})
+            headers={"Content-Type": "application/json", "Accept": "audio/mpeg", **({"xi-api-key": self.key} if self.key else {})})
         mp3 = urllib.request.urlopen(req, timeout=120).read()
         pcm = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", "-", "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                              input=mp3, stdout=subprocess.PIPE, check=True).stdout
