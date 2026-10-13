@@ -1,0 +1,244 @@
+1
+00:00:00,550 --> 00:00:11,080
+On the 26th of February, 2026, about four thousand people at one of America's best-known fintech companies found out they no longer had a job.
+
+2
+00:00:11,500 --> 00:00:15,628
+The company was Block, the business behind Square and Cash App.
+
+3
+00:00:16,048 --> 00:00:21,854
+It wasn't in trouble. Its CEO, Jack Dorsey, said so himself. The business was strong.
+
+4
+00:00:22,274 --> 00:00:25,536
+The reason he gave was artificial intelligence.
+
+5
+00:00:26,936 --> 00:00:31,541
+Block went from more than ten thousand employees to fewer than six thousand.
+
+6
+00:00:31,961 --> 00:00:35,482
+And that evening, its stock jumped more than twenty percent.
+
+7
+00:00:35,902 --> 00:00:39,093
+Wall Street wasn't mourning. It was celebrating.
+
+8
+00:00:40,493 --> 00:00:47,749
+If you've felt a low hum of dread every time someone says the words AI agent in a meeting, you are not alone.
+
+9
+00:00:48,169 --> 00:00:55,076
+Roughly half of Americans now say they worry AI could cost them, or someone in their household, a job.
+
+10
+00:00:55,496 --> 00:00:59,459
+So, is the fear justified? Or is something else going on?
+
+11
+00:00:59,879 --> 00:01:07,507
+To answer that, we have to go back about two hundred years. To a group of very angry men with very large hammers.
+
+12
+00:01:16,607 --> 00:01:27,258
+In 1811, in the villages around Nottingham, England, textile workers began breaking into workshops at night and smashing the machines that were replacing them.
+
+13
+00:01:27,678 --> 00:01:34,051
+They called themselves Luddites. Parliament's response was to make machine-breaking punishable by death.
+
+14
+00:01:34,471 --> 00:01:41,616
+In 1930, the economist John Maynard Keynes gave the fear a name: technological unemployment.
+
+15
+00:01:42,036 --> 00:01:52,792
+In 1964, a group of scientists and activists sent President Lyndon Johnson a memo warning that ‘cybernation’ would soon create mass joblessness.
+
+16
+00:01:53,212 --> 00:02:00,889
+Every generation has had its version of this moment. And every generation, so far, has been wrong about the ending.
+
+17
+00:02:02,289 --> 00:02:09,235
+Take the ATM. When cash machines spread across America, everyone assumed bank tellers were finished.
+
+18
+00:02:09,655 --> 00:02:18,291
+Instead, ATMs made branches cheaper to run, banks opened more of them, and for decades the number of tellers actually grew.
+
+19
+00:02:19,691 --> 00:02:28,096
+Economists estimate that around sixty percent of Americans today work in jobs that didn't even exist in 1940.
+
+20
+00:02:28,516 --> 00:02:37,461
+Technology destroys jobs. It also invents them. It just never asks permission, and it rarely hands the new ones to the same people.
+
+21
+00:02:42,061 --> 00:02:49,943
+Here's the problem with that comforting story. The machines of the past replaced muscle. This one is going after the mind.
+
+22
+00:02:50,363 --> 00:02:56,870
+Writing. Coding. Analysis. Customer support. The work a college degree was supposed to protect.
+
+23
+00:02:58,270 --> 00:03:10,782
+In May 2025, Dario Amodei, CEO of the AI company Anthropic, warned that AI could wipe out half of all entry-level white-collar jobs within five years.
+
+24
+00:03:11,202 --> 00:03:15,047
+And push unemployment as high as ten to twenty percent.
+
+25
+00:03:16,447 --> 00:03:23,742
+This year, the CEO of ServiceNow suggested unemployment among new graduates could reach thirty percent.
+
+26
+00:03:24,162 --> 00:03:29,516
+These aren't conspiracy theorists. These are the people building and selling the technology.
+
+27
+00:03:29,936 --> 00:03:32,760
+Which, as we'll see, is part of the problem.
+
+28
+00:03:37,360 --> 00:03:46,297
+Since 2023, the outplacement firm Challenger, Gray & Christmas has tracked how many announced layoffs companies blame on AI.
+
+29
+00:03:46,717 --> 00:03:55,797
+In May this year, AI was cited in forty percent of all announced job cuts in the United States. The highest share ever recorded.
+
+30
+00:03:57,197 --> 00:04:06,422
+Through August, companies blamed AI for more than 116,000 cuts in 2026. Roughly one in every five.
+
+31
+00:04:06,842 --> 00:04:09,752
+That sounds enormous. Until you zoom out.
+
+32
+00:04:11,152 --> 00:04:18,705
+In a typical month, the US government counts somewhere around one and a half to two million layoffs and discharges.
+
+33
+00:04:19,125 --> 00:04:26,541
+Against that backdrop, the AI-attributed cuts for the entire year so far add up to less than one percent.
+
+34
+00:04:27,941 --> 00:04:30,724
+And it isn't even clear the companies mean it.
+
+35
+00:04:31,144 --> 00:04:37,890
+Analysts have a name for it now. AI washing. Blaming the robots for cuts you wanted to make anyway.
+
+36
+00:04:39,290 --> 00:04:53,043
+Block had grown from around 3,700 employees in 2019 to more than 10,000. Plenty of observers said that looked less like an AI revolution and more like a pandemic hiring hangover.
+
+37
+00:04:53,463 --> 00:05:04,543
+When Amazon cut 14,000 corporate jobs in October 2025, Andy Jassy later said the cuts weren't really about AI at all. They were about culture.
+
+38
+00:05:04,963 --> 00:05:17,037
+Klarna, which once boasted that its AI assistant was doing the work of seven hundred customer service agents, later admitted quality had suffered, and started hiring humans again.
+
+39
+00:05:17,457 --> 00:05:24,807
+The research firm Forrester now predicts that more than half of AI-attributed layoffs will be quietly reversed.
+
+40
+00:05:26,207 --> 00:05:32,734
+Saying AI in a layoff announcement does two things at once. It makes the cuts sound inevitable.
+
+41
+00:05:33,154 --> 00:05:36,147
+And it makes investors very, very happy.
+
+42
+00:05:40,747 --> 00:05:46,988
+But if the layoff numbers are mostly noise, there's one place where the signal is harder to dismiss.
+
+43
+00:05:47,408 --> 00:05:54,693
+In 2025, researchers at Stanford dug into payroll data covering millions of American workers.
+
+44
+00:05:55,113 --> 00:06:09,223
+They found that workers aged twenty-two to twenty-five, in the jobs most exposed to AI, like software development and customer service, saw employment fall by about thirteen percent relative to everyone else.
+
+45
+00:06:09,643 --> 00:06:15,298
+Older workers in the very same jobs? Mostly fine. Some groups were even growing.
+
+46
+00:06:15,718 --> 00:06:19,404
+The authors called their paper, Canaries in the Coal Mine.
+
+47
+00:06:20,804 --> 00:06:33,802
+A working paper from the US Census Bureau this year found something similar: early-career employment in the most AI-exposed industries, down around twelve percent since ChatGPT launched.
+
+48
+00:06:34,222 --> 00:06:49,193
+Not everyone agrees. Economists at UCLA and the Yale Budget Lab find little sign of an AI-driven unemployment spike. They point to a broad hiring slowdown that's hitting young people everywhere, AI or not.
+
+49
+00:06:50,593 --> 00:06:58,724
+But notice what both sides are describing. It isn't mass firing. It's the quiet disappearance of the first rung on the ladder.
+
+50
+00:06:59,144 --> 00:07:03,363
+Nobody gets a layoff email for a job that was never posted.
+
+51
+00:07:07,963 --> 00:07:11,512
+So why does the fear feel so much bigger than the data?
+
+52
+00:07:11,932 --> 00:07:22,509
+Part of it is who's telling the story. The loudest voices on AI and jobs are the people raising billions of dollars on the promise that it will change everything.
+
+53
+00:07:22,929 --> 00:07:29,189
+Part of it is the stock market, which has learned to reward any CEO who says the magic words.
+
+54
+00:07:29,609 --> 00:07:40,735
+And part of it is that the damage, where it does exist, is invisible. A hiring freeze doesn't make headlines. A graduate sending their two-hundredth application doesn't trend.
+
+55
+00:07:42,135 --> 00:07:51,360
+In March, a Quinnipiac poll found thirty percent of Americans worry their own job may become obsolete. A year earlier, it was twenty-one.
+
+56
+00:07:51,780 --> 00:07:58,229
+The fear is growing faster than the evidence. But that doesn't make the fear wrong. It might just be early.
+
+57
+00:07:59,629 --> 00:08:08,180
+The Luddites weren't actually wrong about the machines. The machines really did take their jobs. What they got wrong was thinking they could stop them.
+
+58
+00:08:08,600 --> 00:08:19,818
+Their grandchildren ended up with jobs the Luddites couldn't have imagined. But the Luddites themselves didn't get those jobs. Dozens were hanged. Others were shipped off to Australia.
+
+59
+00:08:21,218 --> 00:08:28,071
+That's the real question about AI. Not whether there'll be work in twenty years. There almost certainly will be.
+
+60
+00:08:28,491 --> 00:08:33,367
+It's who pays for the transition. And whether anyone is planning for it at all.
+
+61
+00:08:33,787 --> 00:08:36,730
+Right now, the honest answer is, not really.
+
